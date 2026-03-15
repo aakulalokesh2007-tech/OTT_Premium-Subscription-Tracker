@@ -1,0 +1,163 @@
+/* Color Palette & Variables */
+:root {
+    --bg-color: #0a0a0a;
+    --surface-color: #141414;
+    --border-color: rgba(255, 255, 255, 0.08);
+    --text-primary: #ffffff;
+    --text-secondary: #888888;
+    --accent-color: #e6dac3; /* A premium copper/gold tone */
+    --danger-color: #ff4747;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+/* Mobile-app width container */
+.container {
+    width: 100%;
+    max-width: 420px; 
+}
+
+h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+h2:first-child { margin-top: 0; }
+
+/* Inputs Layout */
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+input {
+    flex: 1;
+    min-width: 120px;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 16px;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 15px rgba(230, 218, 195, 0.1);
+}
+
+input::placeholder { color: var(--text-secondary); }
+
+/* Buttons */
+button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    color: #000;
+    padding: 16px 24px;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background-color: #f5eedf;
+}
+
+.btn-primary:active { transform: translateY(0); }
+
+/* Subscription Cards (The Vault) */
+.card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card-info strong {
+    font-size: 1.2rem;
+    letter-spacing: -0.5px;
+}
+
+.card-info span {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Edit & Delete Buttons */
+.card-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.card-actions button {
+    padding: 10px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+}
+
+.btn-edit {
+    background-color: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.btn-edit:hover { background-color: rgba(255, 255, 255, 0.05); }
+
+.btn-delete {
+    background-color: transparent;
+    color: var(--danger-color);
+    border: 1px solid rgba(255, 71, 71, 0.2);
+}
+
+.btn-delete:hover {
+    background-color: rgba(255, 71, 71, 0.1);
+}

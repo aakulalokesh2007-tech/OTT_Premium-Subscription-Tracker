@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Subscriptions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Add Subscription</h2>
+        
+        <div class="input-group">
+            <input type="text" id="subName" placeholder="Service name">
+            <input type="number" id="subPrice" placeholder="₹ Amount">
+            <button class="btn-primary" onclick="createSubscription()">Add</button>
+        </div>
+
+        <h2>My Vault</h2>
+        <div id="subscriptionList"></div>
+    </div>
+
+    <script src="back.js"></script>
+</body>
+</html>
