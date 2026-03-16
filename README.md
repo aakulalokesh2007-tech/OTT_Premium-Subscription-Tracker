@@ -59,10 +59,10 @@ Since this project uses vanilla technologies and local storage, you don't need t
 🔮 Future Improvements
  .Here are a few features planned for future updates:
 
- [ ] Add smooth CSS entrance animations for the subscription cards.
+ # [ ] Add smooth CSS entrance animations for the subscription cards.
 
- [ ] Calculate and display the "Total Monthly Cost" dynamically.
+ # [ ] Calculate and display the "Total Monthly Cost" dynamically.
 
- [ ] Migrate to a real backend database (like Firebase or Supabase).
+ # [ ] Migrate to a real backend database (like Firebase or Supabase).
 
- [ ] Add user authentication.
+ # [ ] Add user authentication.
