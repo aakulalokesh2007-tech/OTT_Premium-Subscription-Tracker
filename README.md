@@ -14,7 +14,7 @@ A sleek, modern CRUD (Create, Read, Update, Delete) application to manage monthl
 .The project prioritizes a high-end, native-app feel, utilizing deep dark-mode aesthetics 🌙, custom typography 🔠, and smooth micro-interactions ✨ to deliver a premium user experience.
 
 
-⚙️ Key Features & Functionality
+#⚙️ Key Features & Functionality
 .🔄 Complete CRUD Operations: Users can easily Create new subscription entries, Read their active list in a clean dashboard, Update pricing or service names, and Delete cancellations.
 
 .💾 Persistent Data Storage: By leveraging the browser's native localStorage API, the application saves user data locally. This ensures that the subscription list remains intact even after the browser is closed or the page is refreshed, simulating a database experience without server-side latency.
@@ -48,7 +48,7 @@ This project is built using strictly vanilla web technologies. No frameworks, no
 
 Since this project uses vanilla technologies and local storage, you don't need to run a server or install any dependencies to test it out.
 
-1. **Clone the repository:**
+#. **Clone the repository:**
    ```bash
    git clone [https://github.com/yourusername/OTT_Premium-Subscription-Tracker.git](https://github.com/aakulalokesh2007-tech/OTT_Premium-Subscription-Tracker.git)
    ```
@@ -56,13 +56,13 @@ Since this project uses vanilla technologies and local storage, you don't need t
 
 
 
-🔮 Future Improvements
+#🔮 Future Improvements
  .Here are a few features planned for future updates:
 
- # [ ] Add smooth CSS entrance animations for the subscription cards.
+ * [ ] Add smooth CSS entrance animations for the subscription cards.
 
- # [ ] Calculate and display the "Total Monthly Cost" dynamically.
+ * [ ] Calculate and display the "Total Monthly Cost" dynamically.
 
- # [ ] Migrate to a real backend database (like Firebase or Supabase).
+ * [ ] Migrate to a real backend database (like Firebase or Supabase).
 
- # [ ] Add user authentication.
+ * [ ] Add user authentication.
