@@ -51,7 +51,7 @@ Since this project uses vanilla technologies and local storage, you don't need t
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/yourusername/OTT_Premium-Subscription-Tracker.git](https://github.com/aakulalokesh2007-tech/OTT_Premium-Subscription-Tracker.git)
-
+   ```
 
 
 
