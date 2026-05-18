@@ -1,6 +1,8 @@
 # OTT_Premium-Subscription-Tracker
 Premium Subscription Tracker
 
+[Deploy link](https://ott-premium-subscription-tracker.vercel.app/?_vercel_share=a2Wp41tsaOfxHxq1hhQTNjxXWyng8WVC)
+
 
 # 💳 Premium Subscription Tracker 🎬
 
